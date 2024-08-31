@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/popup-delay-download",
+	"version": "0.1.0",
+	"title": "Popup Delay Download",
+	"category": "widgets",
+	"icon": "download",
+	"description": "Example block scaffolded with Create Block tool.",
+	"attributes": {
+		"fileUrl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "popup-delay-download",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
