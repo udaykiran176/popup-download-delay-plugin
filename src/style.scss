@@ -5,7 +5,7 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.file-download-btn{
+ .file-download-btn{
 	color: #fff;
 	background-color: #0073aa;
 	border-color: #0073aa;
@@ -38,7 +38,9 @@
     align-items: center;
     z-index: 1000;
 }
-
+#openPopupBtn{
+	font-weight: bold;
+}
 .popup-content {
     background-color: white;
     padding: 20px;
@@ -71,6 +73,7 @@
 
 .container {
     text-align: center;
+	padding-top: 50px;
 }
 
 #timer {

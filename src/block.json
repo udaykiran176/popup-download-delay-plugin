@@ -11,6 +11,26 @@
 		"fileUrl": {
 			"type": "string",
 			"default": ""
+		},
+		"timerDuration": {
+			"type": "number",
+			"default": 30
+		  },
+		  "adsCode": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Download"
+		},
+		"buttonTextColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"buttonBgColor": {
+			"type": "string",
+			"default": "#0073aa"
 		}
 	},
 	"supports": {
